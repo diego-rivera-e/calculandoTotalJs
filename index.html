@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./assests/css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+            <img src="./assests/img/note.png" alt="Laptop Gamer">
+            <h2>Laptop Gamer AMD</h2>
+            <input type="number" placeholder="Cantidad" id="cantidad">
+            <input type="text" placeholder="Color" id="color">
+            <p>Precio: <span id="precio">400000</span></p>
+            <button id="btn" onclick="calcular()">Calcular Total</button>
+        </div>
+        <div class="resumen">
+            <div> Total: $<span id="resumen_total">0</span></div>
+            <div> Cantidad: <span id="resumen_cantidad">0</span></div>
+            <div> Color: $
+                <div id="resumen_color" class="resumen_color"></div>
+        </div>
+
+    <script src="./assests/js/index.js"></script>
+</body>
+</html>
